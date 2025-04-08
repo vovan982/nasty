@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги | Наталия Видинеева - Дизайнер</title>
+    <meta name="description" content="Профессиональные услуги дизайна от Наталии Видинеевой. Разработка фирменного стиля, дизайн упаковки, веб-дизайн и многое другое.">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="/" class="logo">Vidi Design</a>
+                <ul class="nav__list">
+                    <li><a href="/#about">Обо мне</a></li>
+                    <li><a href="/services" class="active">Услуги</a></li>
+                    <li><a href="/#portfolio">Портфолио</a></li>
+                    <li><a href="/#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Профессиональные услуги дизайна</h1>
+                <p class="hero__subtitle">Создаю уникальные решения для вашего бизнеса</p>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="/static/images/branding-icon.svg" alt="Брендинг">
+                        </div>
+                        <h3 class="service-card__title">Фирменный стиль</h3>
+                        <p class="service-card__description">Разработка логотипа, цветовой палитры, типографики и других элементов фирменного стиля.</p>
+                        <a href="/services/branding" class="btn btn--primary">Подробнее</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="/static/images/package-icon.svg" alt="Упаковка">
+                        </div>
+                        <h3 class="service-card__title">Дизайн упаковки</h3>
+                        <p class="service-card__description">Создание привлекательной и функциональной упаковки для ваших продуктов.</p>
+                        <a href="/services/package-design" class="btn btn--primary">Подробнее</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="/static/images/web-icon.svg" alt="Веб-дизайн">
+                        </div>
+                        <h3 class="service-card__title">Веб-дизайн</h3>
+                        <p class="service-card__description">Разработка современных и удобных интерфейсов для сайтов и приложений.</p>
+                        <a href="/services/web-design" class="btn btn--primary">Подробнее</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="/static/images/print-icon.svg" alt="Печатная продукция">
+                        </div>
+                        <h3 class="service-card__title">Печатная продукция</h3>
+                        <p class="service-card__description">Дизайн визиток, буклетов, каталогов и другой полиграфической продукции.</p>
+                        <a href="/services/print-design" class="btn btn--primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-info">
+            <div class="container">
+                <h2 class="section-title">Как мы работаем</h2>
+                <div class="project-info__grid">
+                    <div class="project-info__item">
+                        <div class="project-info__number">01</div>
+                        <h3 class="project-info__title">Обсуждение</h3>
+                        <p class="project-info__description">Анализируем ваши потребности и ставим цели проекта</p>
+                    </div>
+                    <div class="project-info__item">
+                        <div class="project-info__number">02</div>
+                        <h3 class="project-info__title">Концепция</h3>
+                        <p class="project-info__description">Разрабатываем концепцию и согласовываем с вами</p>
+                    </div>
+                    <div class="project-info__item">
+                        <div class="project-info__number">03</div>
+                        <h3 class="project-info__title">Реализация</h3>
+                        <p class="project-info__description">Создаем дизайн и вносим необходимые корректировки</p>
+                    </div>
+                    <div class="project-info__item">
+                        <div class="project-info__number">04</div>
+                        <h3 class="project-info__title">Завершение</h3>
+                        <p class="project-info__description">Подготавливаем финальные файлы и передаем вам</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3 class="footer__title">Vidi Design</h3>
+                    <p class="footer__description">Профессиональные услуги дизайна для вашего бизнеса</p>
+                </div>
+                <div class="footer__contacts">
+                    <a href="mailto:info@vidi-design.ru" class="footer__link">info@vidi-design.ru</a>
+                    <a href="tel:+79999999999" class="footer__link">+7 (999) 999-99-99</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2024 Vidi Design. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="floating-btn">
+        <span class="floating-btn__icon">👋</span>
+        <span class="floating-btn__counter">0</span>
+    </button>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html> 
